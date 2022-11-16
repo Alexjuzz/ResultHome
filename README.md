@@ -9,3 +9,5 @@
 + [x]  решил задание
 + [x] *Сделал комиты и запушил*
 + [x] Добил README 
++ [x] Добавил коментарии
++ [x] добавил Блок-схему [:fireworks:](D:\resulthome\ResultHome\Resultdz.jpg)
