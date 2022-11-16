@@ -10,4 +10,4 @@
 + [x] *Сделал комиты и запушил*
 + [x] Добил README 
 + [x] Добавил коментарии
-+ [x] добавил Блок-схему [:fireworks:](D:\resulthome\ResultHome\Resultdz.jpg)
++ [x] добавил Блок-схему [схема](Resulgitdz.jpg)
