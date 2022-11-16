@@ -5,7 +5,7 @@ string[] arrayStr = { "Hello", "World", "2", ":-)" };
 string[] arrayStr2 = { "1234", "1567", "-2", "Computer sience" };
 string[] arrayStr3 = { "Russia", "Denmark", "Kazan" };
 
-string[] createArray(string[] array, int count)
+string[] createArray(string[] array, int count)  // Создание нового массива
 {
     string[] resultArray = new string[count];
 
@@ -21,7 +21,7 @@ string[] createArray(string[] array, int count)
     return resultArray;
 }
 
-int countValues(string[] array)
+int countValues(string[] array) // Подсчет строк размером <=3 
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
@@ -34,7 +34,7 @@ int countValues(string[] array)
     return count;
 }
 
-void printArr(string[] array)
+void printArr(string[] array) // Печать массива
 {
     foreach (var item in array)
     {
@@ -44,4 +44,4 @@ void printArr(string[] array)
 }
 
 
-printArr(createArray(arrayStr3,countValues(arrayStr3)));
+printArr(createArray(arrayStr3,countValues(arrayStr3))); 
